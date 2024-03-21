@@ -12,6 +12,15 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        hoverEffect: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(10px)" },
+        },
+      },
+      animation: {
+        hover: "hoverEffect 1s ease-in-out infinite",
+      },
     },
   },
   plugins: [],
