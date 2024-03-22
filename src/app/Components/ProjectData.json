@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "test1",
-    "description": "test1desc test",
+    "title": "Crimewatch App",
+    "description": "Website that shows all police repports directly from police API.",
     "image": "/images/Projects/Crimewatch.png",
     "gitUrl": "https://github.com/CallMeSimo/polisappredone",
     "videoUrl": "https://crimewatch.netlify.app/",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "MadPromotions page",
-    "description": "Appending new page for their service.",
+    "description": "Appending new page for their new service.",
     "image": "/images/Projects/webMad.png",
     "gitUrl": "https://madpromotions.mt/wedding-landing-page/",
     "videoUrl": "https://madpromotions.mt/wedding-landing-page/",
@@ -19,8 +19,8 @@
   },
   {
     "id": 3,
-    "title": "",
-    "description": "",
+    "title": "PLC comunications",
+    "description": "Developing an HMI for PLC device.",
     "image": "/images/Hardware/Hardware3.png",
     "gitUrl": "",
     "videoUrl": "/pages/writeup1/",
@@ -28,8 +28,8 @@
   },
   {
     "id": 4,
-    "title": "80's Style",
-    "description": "",
+    "title": "80's Style 3D art",
+    "description": "Made in blender.",
     "image": "/images/3Dprojects/3D1.png",
     "gitUrl": "",
     "videoUrl": "",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "title": "Isometric scene",
-    "description": "",
+    "description": "Made in blender.",
     "image": "/images/3Dprojects/3D2.png",
     "gitUrl": "https://sketchfab.com/3d-models/minecraftdiorama-a6e79031d8554c76825105905f437acc",
     "videoUrl": "",
@@ -46,8 +46,8 @@
   },
   {
     "id": 6,
-    "title": "",
-    "description": "",
+    "title": "Hardware hacking xbox kinect",
+    "description": "Soldering and usage of opensource dev tools.",
     "image": "/images/Hardware/Hardware1.png",
     "gitUrl": "",
     "videoUrl": "https://youtu.be/p0iWnc53U4Y",
@@ -55,8 +55,8 @@
   },
   {
     "id": 7,
-    "title": "",
-    "description": "",
+    "title": "Arduino safe",
+    "description": "Combination code safe with an indicator of how close you are to solving it.",
     "image": "/images/Hardware/Hardware2.png",
     "gitUrl": "",
     "videoUrl": "https://www.youtube.com/watch?v=1tq4uGznh9U",
