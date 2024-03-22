@@ -7,6 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const ReferalData = [
   {
+    id: 1,
     Author: "Jean ****",
     AuthorImage: "/images/Referals/jean.jpg",
     Occupation:
@@ -15,6 +16,7 @@ const ReferalData = [
       "Wassim joined Mad Promotions Ltd for a brief time during a hectic period however his work on our company website is to last for years to come. He is diligent, eager to learn and has a great attitude in general. Wassim is a great asset for any team! \n \n \n \n \n \n I wish him the absolute best in his professional career - you will be dearly missed!",
   },
   {
+    id: 2,
     Author: "James *****",
     AuthorImage: "/images/Referals/james.jpg",
     Occupation: " IT-Specialist┃TeamLead┃Department responsible",
@@ -22,6 +24,7 @@ const ReferalData = [
       "Wassim's dedication to his work is truly remarkable. Not only is he hardworking and always ready to take initiative, but his structured approach to problem-solving.",
   },
   {
+    id: 3,
     Author: "Theodor *****",
     AuthorImage: "/images/Referals/theod.png",
     Occupation: " Tech hobbiest┃Modder/Scripter┃Frequent collaborator",
@@ -51,7 +54,7 @@ export const Testimonials = () => {
           repeat={Infinity}
         />
       </h2>
-      {ReferalData.map((referal, index) => {
+      {ReferalData.map((referal) => {
         return (
           <div className="py-8 px-4 xl:gap-16 sm:py-4 xl:px-16">
             <div className="border-[#33353F] bg-[#121212] border rounded-bl-3xl py-8 px-17 flex flex-col text-sm ">
@@ -63,7 +66,7 @@ export const Testimonials = () => {
                   width={100}
                   height={100}
                 />
-                <div key={index} className="flex flex-col mx-4">
+                <div key={referal.id} className="flex flex-col mx-4">
                   <h2 className="text-white text-2xl font-bold">
                     {referal.Author}
                   </h2>
