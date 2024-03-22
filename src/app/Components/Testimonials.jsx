@@ -56,7 +56,10 @@ export const Testimonials = () => {
       </h2>
       {ReferalData.map((referal) => {
         return (
-          <div className="py-8 px-4 xl:gap-16 sm:py-4 xl:px-16">
+          <div
+            key={referal.id}
+            className="py-8 px-4 xl:gap-16 sm:py-4 xl:px-16"
+          >
             <div className="border-[#33353F] bg-[#121212] border rounded-bl-3xl py-8 px-17 flex flex-col text-sm ">
               <div className="flex flex-col md:flex-row  items-center gap-10 md:px-10">
                 <Image
@@ -66,7 +69,7 @@ export const Testimonials = () => {
                   width={100}
                   height={100}
                 />
-                <div key={referal.id} className="flex flex-col mx-4">
+                <div className="flex flex-col mx-4">
                   <h2 className="text-white text-2xl font-bold">
                     {referal.Author}
                   </h2>
