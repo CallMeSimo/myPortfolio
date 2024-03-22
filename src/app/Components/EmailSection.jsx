@@ -18,7 +18,7 @@ const EmailSection = () => {
       message: e.target.message.value,
     };
     const JSONdata = JSON.stringify(data);
-    const endpoint = "http://localhost:3000/api/send";
+    const endpoint = "/api/send";
 
     // Form the request for sending data to the server.
     const options = {
