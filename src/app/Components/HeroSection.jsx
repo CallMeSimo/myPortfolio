@@ -8,7 +8,7 @@ import { TypeAnimation } from "react-type-animation";
 const HeroSection = () => {
   const downloadTxtFile = () => {
     window.location.href =
-      "http://localhost:3000/public/Documents/00_WassimElHaddaoui_CV.pdf";
+      "http://simoportfolio.com/public/Documents/00_WassimElHaddaoui_CV.pdf";
   };
 
   return (
