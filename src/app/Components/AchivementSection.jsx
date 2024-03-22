@@ -6,8 +6,8 @@ const achivementList = [
     value: "10+",
   },
   {
-    metric: "Referals",
-    value: "2+",
+    metric: "Happy Clients",
+    value: "2",
   },
   {
     metric: "Cups of coffee",
@@ -18,7 +18,7 @@ const achivementList = [
 export const AchivementSection = () => {
   return (
     <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <div className="border-[#33353F] bg-[#121212] border rounded-md py-8 px-17 flex flex-col md:flex-row text-sm items-center justify-around">
+      <div className="border-[#33353F] bg-[#121212] border rounded-md py-8 px-17 flex flex-col gap-8 md:flex-row text-sm items-center justify-around">
         {achivementList.map((achivement, index) => {
           return (
             <div

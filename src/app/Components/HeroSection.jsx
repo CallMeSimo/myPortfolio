@@ -15,7 +15,7 @@ const HeroSection = () => {
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-12 mt-40">
         <div className="col-span-7 place-self-center text-center sm:text-left">
-          <h1 className="text-white  mb-4 text-4xl sm:text-5xl  lg:text-6xl font-extrabold">
+          <h1 className="text-white  h-40 mb-4 text-4xl sm:text-5xl  lg:text-6xl font-extrabold">
             <span className="text-transparent  bg-clip-text bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500">
               Hello, I am{" "}
             </span>
@@ -39,8 +39,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-lg mb-6 lg:text-xl">
             Welcome to my page I upload a wide range of projects, some fun, some
-            serious. I am a what you would call a generalist, jack of all
-            trades.
+            serious. I am what you would call a generalist, jack of all trades.
           </p>
           <div>
             <button className="px-6 py-3 mb-5 w-full sm:w-fit rounded-full mr-4 bg-white bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">

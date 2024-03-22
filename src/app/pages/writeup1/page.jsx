@@ -11,11 +11,9 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Javascript</li>
-        <li>React</li>
-        <li>SEO</li>
-        <li>Network</li>
+        <li>PLC - programming</li>
+        <li>Communication</li>
+        <li>Networking</li>
       </ul>
     ),
   },
@@ -24,8 +22,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Gymnasieingenjör</li>
-        <li>Nerd</li>
+        <li>Developer - Main communication between devices</li>
+        <li>Teamlead</li>
+        <li>Contact person</li>
       </ul>
     ),
   },
@@ -34,11 +33,8 @@ const TAB_DATA = [
     id: "experiences",
     content: (
       <ul className="list-disc pl-2">
-        <li>Test Technician</li>
-        <li>Developer</li>
-        <li>Wordpress-devloper</li>
-        <li>Marketing</li>
-        <li>Team lead</li>
+        <li>M241CE24R koppling till 950D</li>
+        <li>Data format - Converting HEX values to Decimal ASCII</li>
       </ul>
     ),
   },
@@ -55,14 +51,14 @@ export default function ProjectWriteup() {
   };
   return (
     <main className="flex min-h-screen pt-10 flex-col bg-[#121212] bg-[url('/images/topography.svg')]">
-      <section id="about" className="text-white">
-        <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16">
+      <section id="about" className="container mx-auto px-40 py-4">
+        <div className="flex flex-col gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16">
           <div style={{ borderRadius: "10%", overflow: "hidden" }}>
             <Image
               src="/images/Hardware/Hardware3.png"
               width={1000}
               height={780}
-              alt="Sample Image"
+              alt="Image of oscilloscope being used on a plc device."
             />
           </div>
           <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
@@ -85,17 +81,49 @@ export default function ProjectWriteup() {
                 repeat={Infinity}
               />
             </h2>
-            <p className="text-base lg:text-lg text-justify">
-              I am a jack of all trades. Through my career, I have honed my
-              skills in optimizing strategies, responsive design, and website
-              analytics. I have successfully tackled complex hardware, software,
-              and network issues, consistently demonstrating my problem-solving
-              abilities. With a degree in Information and Media Technology, I
-              have completed impactful IoT projects and gained experience
-              leading workshops, highlighting my leadership and communication
-              skills. Fluent in both Swedish and English, I possess excellent
-              communication abilities essential for collaborating effectively
-              with diverse teams.
+            <p className="text-base text-md text-justify">
+              Embarking on an intricate journey of PLC programming, I found
+              myself integral to a dynamic trio tasked with the development of
+              Human-Machine Interfaces (HMI), a cornerstone in enhancing the
+              user interaction and overall efficiency of machinery control
+              systems. Our programming language of choice was Structured Text
+              (ST), a high-level, block-structured language reminiscent of
+              Pascal, specifically designed for programmable logic controllers
+              (PLC). This choice was driven by its adaptability and robustness
+              in handling complex logic and processes, a critical asset in our
+              development toolkit.
+              <br></br>
+              <br></br>
+              The project's core involved implementing sophisticated timer
+              logic, a fundamental component in ensuring precise control and
+              sequencing of operations within the PLC. This timer logic served
+              as the backbone of our HMI's operational flow, dictating the
+              synchronized execution of tasks and ensuring a seamless and
+              intuitive user experience.
+              <br></br>
+              <br></br>
+              As the development phase neared completion, our focus shifted
+              towards refining and optimizing the codebase. The art of
+              refactoring became our mantra, as we meticulously combed through
+              lines of code, enhancing readability, and streamlining functions
+              for improved performance and maintenance ease. This process not
+              only bolstered the efficiency of our code but also solidified our
+              team's collaborative prowess, as we collectively honed our skills
+              in writing cleaner, more efficient code.
+              <br></br>
+              <br></br>
+              The culmination of our efforts was marked by a comprehensive
+              presentation to the project's stakeholders. This meeting with the
+              owners and collaborators was not merely a formality but a
+              celebration of innovation and teamwork. We demonstrated the
+              capabilities and advantages of our newly developed HMI system,
+              showcasing the intuitive interface and the underlying
+              sophisticated logic that powered it. This presentation served as a
+              testament to the collaborative spirit of our team and the
+              potential of structured text programming in revolutionizing HMI
+              development. It was a moment of pride and accomplishment, as we
+              received invaluable feedback and appreciation, paving the way for
+              future advancements and collaborations.
             </p>
             <div className="flex flex-row mt-8">
               <TabButton
@@ -120,6 +148,14 @@ export default function ProjectWriteup() {
             <div className="mt-8">
               {TAB_DATA.find((t) => t.id === tab).content}
             </div>
+          </div>
+          <div style={{ borderRadius: "10%", overflow: "hidden" }}>
+            <Image
+              src="/images/Hardware/Hardwaresetup1.png"
+              width={1000}
+              height={780}
+              alt="Workplace setup."
+            />
           </div>
         </div>
       </section>
