@@ -38,6 +38,7 @@ const TAB_DATA = [
         <li>Developer</li>
         <li>Wordpress-devloper</li>
         <li>Marketing</li>
+        <li>Team lead</li>
       </ul>
     ),
   },
@@ -92,11 +93,16 @@ function AboutSection() {
               repeat={Infinity}
             />
           </h2>
-          <p className="text-base lg:text-lg">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
-            incidunt doloremque laborum quidem maiores. Perferendis quasi nobis
-            minima facere voluptatibus optio. Dolorum ducimus eveniet neque
-            obcaecati incidunt cum quisquam aliquid.
+          <p className="text-base lg:text-lg text-justify">
+            I am a jack of all trades. Through my career, I have honed my skills
+            in optimizing strategies, responsive design, and website analytics.
+            I have successfully tackled complex hardware, software, and network
+            issues, consistently demonstrating my problem-solving abilities.
+            With a degree in Information and Media Technology, I have completed
+            impactful IoT projects and gained experience leading workshops,
+            highlighting my leadership and communication skills. Fluent in both
+            Swedish and English, I possess excellent communication abilities
+            essential for collaborating effectively with diverse teams.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton

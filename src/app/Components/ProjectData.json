@@ -4,8 +4,8 @@
     "title": "test1",
     "description": "test1desc test",
     "image": "/images/Projects/Crimewatch.png",
-    "gitUrl": "",
-    "videoUrl": "",
+    "gitUrl": "https://github.com/CallMeSimo/polisappredone",
+    "videoUrl": "https://crimewatch.netlify.app/",
     "tag": ["All", "Web"]
   },
   {
@@ -13,17 +13,17 @@
     "title": "MadPromotions page",
     "description": "Appending new page for their service.",
     "image": "/images/Projects/webMad.png",
-    "gitUrl": "",
-    "videoUrl": "",
+    "gitUrl": "https://madpromotions.mt/wedding-landing-page/",
+    "videoUrl": "https://madpromotions.mt/wedding-landing-page/",
     "tag": ["All", "Web"]
   },
   {
     "id": 3,
     "title": "",
     "description": "",
-    "image": "",
+    "image": "/images/Hardware/Hardware3.png",
     "gitUrl": "",
-    "videoUrl": "",
+    "videoUrl": "/pages/writeup1/",
     "tag": ["All", "Hardware"]
   },
   {

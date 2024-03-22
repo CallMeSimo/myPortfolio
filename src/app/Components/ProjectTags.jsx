@@ -7,7 +7,7 @@ export const ProjectTags = ({ name, onClick, isSelected }) => {
 
   return (
     <button
-      className={`${buttonStyles} rounded-full  border-2 border-purple-500 px-6 py-4 text-xl  cursor-pointer`}
+      className={`${buttonStyles} rounded-full bg-[#121212]  border-2 border-purple-500 px-6 py-4 text-xl  cursor-pointer`}
       onClick={() => onClick(name)}
     >
       {name}
