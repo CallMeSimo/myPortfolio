@@ -103,13 +103,9 @@ export default function ProjectWriteup() {
               <br></br>
               <br></br>
               As the development phase neared completion, our focus shifted
-              towards refining and optimizing the codebase. The art of
-              refactoring became our mantra, as we meticulously combed through
-              lines of code, enhancing readability, and streamlining functions
-              for improved performance and maintenance ease. This process not
-              only bolstered the efficiency of our code but also solidified our
-              team's collaborative prowess, as we collectively honed our skills
-              in writing cleaner, more efficient code.
+              towards refining and optimizing the codebase. Enhancing
+              readability, and streamlining functions for improved performance
+              and maintenance ease.
               <br></br>
               <br></br>
               The culmination of our efforts was marked by a comprehensive

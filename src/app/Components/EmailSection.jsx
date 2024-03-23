@@ -56,10 +56,10 @@ const EmailSection = () => {
           projects, questions or even for a coffe, just start with a hello!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/CallMeSimo">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/wassim-el-haddaoui/">
             <Image src={linkedin} alt="Linkedin Icon" />
           </Link>
         </div>
