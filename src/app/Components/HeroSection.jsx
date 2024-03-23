@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -43,24 +44,24 @@ const HeroSection = () => {
           </p>
           <div>
             <a
-              href="#contact"
-              className="px-6 py-3 mb-5 w-full sm:w-fit rounded-full mr-4 bg-white bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white"
+              href="/#contact"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white"
             >
-              <>Hire Me</>
+              Hire Me
             </a>
-            <button className="px-1 py-1 ml-10 w-full sm:w-fit rounded-full bg-transparent bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800">
-              <a
-                className="block h-full w-full rounded-full bg-gray-800 hover:bg-slate-700 px-5 py-2"
-                href="http://localhost:3000/Documents/00_WassimElHaddaoui_CV.pdf"
-                download="00_WassimElHaddaoui_CV.pdf"
-              >
+            <a
+              href="/Documents/00_WassimElHaddaoui_CV.pdf"
+              download="WassimElHaddaoui_CV.pdf"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
+            >
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
-              </a>
-            </button>
+              </span>
+            </a>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="shadow-2xl skew-y-12 rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="shadow-2xl md:skew-y-12 rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             {" "}
             <Image
               className=" absolute animate-hover transform -translate-x-1/2 -translate-y-1/2 top-0 left-0 md:top-10 md:left-10"
